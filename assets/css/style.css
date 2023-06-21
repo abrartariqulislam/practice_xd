@@ -39,6 +39,7 @@ a {
 #header_section {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 200;
 }
@@ -47,6 +48,11 @@ a {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+}
+.inner_header  nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .inner_header ul {
   display: flex;
@@ -57,6 +63,11 @@ a {
 .inner_header ul li a {
   color: #212832;
   font-size: 17px;
+}
+.inner_header  nav i{
+  font-size: 48px;
+  color: #14183e;
+  display: none;
 }
 .inner_header ul li a.Sign_up_btn {
   border: 1px solid #212832;
@@ -74,6 +85,7 @@ a {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding: 100px 0;
 }
 .inner_banner .banner_content {
   flex-basis: 50%;
@@ -89,7 +101,7 @@ a {
   font-size: 84px;
   font-weight: bold;
   line-height: 89px;
-  letter-spacing: 0px;
+  letter-spacing: 2px;
   max-width: 545px;
   margin: 25px 0;
 }
@@ -111,7 +123,7 @@ a {
   color: #ffffff;
   background-color: #f1a501;
   border-radius: 10px;
-  filter: drop-shadow(0px 20px 70px #f1a50159);
+  filter: drop-shadow(0px 20px 70px #f1a50115);
   padding: 15px 20px;
   border: none;
 }
@@ -426,6 +438,7 @@ a {
   align-items: center;
   justify-content: center;
   column-gap: 20px;
+  padding-bottom: 30px;
 }
 .inner_subscribe .Subscribe {
   border: none;

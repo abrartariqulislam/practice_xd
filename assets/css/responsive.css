@@ -1,0 +1,144 @@
+/* =================
+tab device
+===========================*/
+@media (max-width: 992px) {
+  /* common */
+  .container {
+    max-width: 700px;
+  }
+  /* header */
+  .inner_header ul {
+    display: none;
+  }
+  .inner_header nav i {
+    display: inline-block;
+  }
+  /* banner */
+  .inner_banner {
+    flex-direction: column-reverse;
+  }
+  /* service */
+  .inner_service .service_content {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .inner_service .service_box {
+    flex-basis: 50%;
+  }
+  /* top */
+  .inner_top .top_content {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .inner_top .top_content .top_box {
+    flex-basis: 100%;
+  }
+  .inner_top {
+    margin-bottom: 0px;
+  }
+  /* book */
+  .inner_book {
+    flex-direction: column-reverse;
+  }
+  /* testimonials */
+  .inner_testimonials .testimonials_header {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+  .inner_testimonials .testimonials_header .testimonials_title {
+    flex-basis: 100%;
+  }
+  .inner_testimonials .testimonials_header .testimonials_content {
+    flex-basis: 100%;
+  }
+  .inner_testimonials .testimonials_footer {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .inner_testimonials .testimonials_footer div {
+    flex-basis: 33.333%;
+  }
+  /* contact */
+  .inner_contact {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  .inner_contact .contact_title p {
+    margin: 0 auto;
+  }
+  .inner_contact .box {
+    flex-basis: 50%;
+  }
+}.inner_contact .icon .socil_icon{
+    justify-content: center;
+  }
+  .inner_contact .icon .store{
+    justify-content: center;
+  }
+  .inner_subscribe form{
+    flex-direction: column;
+  }
+/* =================
+mobile device
+===========================*/
+@media (max-width: 768px) {
+  /* common */
+  .container {
+    max-width: 500px;
+  }
+  /* banner */
+  .inner_banner .banner_content h1 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64px;
+  }
+  .inner_banner .banner_content .banner_btn{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  /* service */
+  .inner_service {
+    padding-bottom: 50px;
+  }
+  .inner_service h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .inner_service .service_box {
+    flex-basis: 100%;
+  }
+  /* top */
+  .inner_top h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  /* book */
+  .inner_book .book_content h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  /* testimonials */
+  .inner_testimonials .testimonials_header .testimonials_title h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .inner_testimonials .testimonials_footer div {
+    flex-basis: 100%;
+  }
+  /* contact */
+  .inner_contact .box {
+    flex-basis: 100%;
+  }
+  /* subscribe */
+  .inner_subscribe form{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .inner_subscribe .email{
+    width: 300px;
+  }
+}
