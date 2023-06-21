@@ -73,15 +73,13 @@ tab device
   .inner_contact .box {
     flex-basis: 50%;
   }
-}.inner_contact .icon .socil_icon{
+  .inner_contact .icon .socil_icon {
     justify-content: center;
   }
   .inner_contact .icon .store{
     justify-content: center;
   }
-  .inner_subscribe form{
-    flex-direction: column;
-  }
+}
 /* =================
 mobile device
 ===========================*/
@@ -96,7 +94,7 @@ mobile device
     font-weight: bold;
     line-height: 64px;
   }
-  .inner_banner .banner_content .banner_btn{
+  .inner_banner .banner_content .banner_btn {
     flex-direction: column;
     row-gap: 30px;
   }
@@ -138,7 +136,7 @@ mobile device
     flex-direction: column;
     row-gap: 30px;
   }
-  .inner_subscribe .email{
+  .inner_subscribe .email {
     width: 300px;
   }
 }
